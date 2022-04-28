@@ -9,7 +9,22 @@ class FirstClassTest {
         FirstClass firstClass = new FirstClass();
 
         Assertions.assertArrayEquals(new int[]{0, 1, 2, 3, 4, 5}, firstClass.ascendingSequence(0, 5, 1));
+    }
 
+    @Test
+    public void testAscendingSequenceEmptyArray(){
+
+        FirstClass firstClass = new FirstClass();
+
+        Assertions.assertArrayEquals(new int[]{}, firstClass.ascendingSequence(0, 0, 1));
+    }
+
+    @Test
+    public void testAscendingSequenceNegative(){
+
+        FirstClass firstClass = new FirstClass();
+
+        Assertions.assertArrayEquals(new int[]{}, firstClass.ascendingSequence(0, 3, -1));
     }
 
 
