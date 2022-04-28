@@ -12,6 +12,22 @@ class FirstClassTest {
     }
 
     @Test
+    public void testAscendingSequenceHappyPathNegativeNumbers(){
+
+        FirstClass firstClass = new FirstClass();
+
+        Assertions.assertArrayEquals(new int[]{-10, -9, -8, -7}, firstClass.ascendingSequence(-10, -7, 1));
+    }
+
+    @Test
+    public void testAscendingSequenceHappyPathNegativeNumbersToPositiveNumbers(){
+
+        FirstClass firstClass = new FirstClass();
+
+        Assertions.assertArrayEquals(new int[]{-2, -1, 0, 1, 2}, firstClass.ascendingSequence(-2, 2, 1));
+    }
+
+    @Test
     public void testAscendingSequenceEmptyArray(){
 
         FirstClass firstClass = new FirstClass();
