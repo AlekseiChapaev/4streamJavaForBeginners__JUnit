@@ -20,13 +20,18 @@ class FirstClassTest {
     }
 
     @Test
-    public void testAscendingSequenceNegative(){
+    public void testAscendingSequenceNegative1(){
 
         FirstClass firstClass = new FirstClass();
 
         Assertions.assertArrayEquals(new int[]{}, firstClass.ascendingSequence(0, 3, -1));
     }
 
+    @Test
+    public void testAscendingSequenceNegative2(){
 
+        FirstClass firstClass = new FirstClass();
 
+        Assertions.assertArrayEquals(new int[]{}, firstClass.ascendingSequence(10, 0, 1));
+    }
 }
