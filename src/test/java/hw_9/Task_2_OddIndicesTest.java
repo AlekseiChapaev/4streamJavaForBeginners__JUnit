@@ -34,4 +34,10 @@ class Task_2_OddIndicesTest {
         Task_2_OddIndices oddIndices = new Task_2_OddIndices();
         Assertions.assertArrayEquals(new int[]{-3, -6}, oddIndices.arrayOfOddIndexes(new int[]{-1, -3, -5, -6}));
     }
+
+    @Test
+    public void testOddIndicesHappyPathArithmeticsFunctions(){
+        Task_2_OddIndices oddIndices = new Task_2_OddIndices();
+        Assertions.assertArrayEquals(new int[]{10, 0, 4, 4}, oddIndices.arrayOfOddIndexes(new int[]{ 2 + 1, -5 + 15, -6, 10 - 10, 8, 2 * 2, 7, 8 / 2}));
+    }
 }
