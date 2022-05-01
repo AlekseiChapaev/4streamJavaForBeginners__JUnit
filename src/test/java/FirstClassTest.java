@@ -1,10 +1,7 @@
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.TestMethodOrder;
 
 class FirstClassTest {
-
 
     @Test
     public void testAscendingSequenceHappyPath(){
