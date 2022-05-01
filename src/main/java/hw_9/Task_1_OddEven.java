@@ -1,6 +1,6 @@
 package hw_9;
 
-public class OddEven {
+public class Task_1_OddEven {
 
     public String isNumberOdd(long number) {
         if (number >= Integer.MIN_VALUE && number <= Integer.MAX_VALUE){
