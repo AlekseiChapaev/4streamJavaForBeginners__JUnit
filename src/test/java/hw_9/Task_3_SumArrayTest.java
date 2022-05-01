@@ -28,5 +28,4 @@ class Task_3_SumArrayTest {
         Task_3_SumArray sumArray = new Task_3_SumArray();
         Assertions.assertEquals(0, sumArray.getSumArray(null));
     }
-
 }
