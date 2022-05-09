@@ -3,7 +3,7 @@ package hw_9;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class IsPositiveNumberTest {
+public class Task_5_IsPositiveNumberTest {
 
     @Test
     public void testIsPositiveTestData1(){

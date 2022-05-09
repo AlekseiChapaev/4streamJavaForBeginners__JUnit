@@ -20,8 +20,10 @@ public class Task_9_Intersection {
                     resultArray[index++] = arr[i];
                 }
             }
+
             return resultArray;
         }
+
         return null;
     }
 

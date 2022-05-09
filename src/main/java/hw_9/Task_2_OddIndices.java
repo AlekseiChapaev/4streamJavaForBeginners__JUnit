@@ -10,9 +10,11 @@ public class Task_2_OddIndices {
                 for (int i = 1; i < arr.length; i += 2) {
                     newArray[index++] = arr[i];
                 }
+
                 return newArray;
             }
         }
+
         return null;
     }
 }

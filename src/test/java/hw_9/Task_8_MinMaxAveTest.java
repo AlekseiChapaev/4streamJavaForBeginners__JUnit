@@ -38,7 +38,7 @@ class Task_8_MinMaxAveTest {
     @Test
     public void testMinMaxAveSameFirstNumbersMoreArrayLenght(){
         Task_8_MinMaxAve mnv = new Task_8_MinMaxAve();
-        Assertions.assertArrayEquals(null, mnv.getMinMaxAve(new int[]{1, 2, 3, 4, 5}, 6, 8));
+        Assertions.assertArrayEquals(null, mnv.getMinMaxAve(new int[]{1, 2, 3, 4, 5}, 8, 2));
     }
 
 
