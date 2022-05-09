@@ -84,8 +84,6 @@ public class Task_9_Intersection {
             tempArr[arr1UniqueNumbers.length + i] = arr2UniqueNumbers[i];
         }
 
-        int[] result = getNotUniqueNumbersArray(tempArr);
-
-        return result;
+        return getNotUniqueNumbersArray(tempArr);
     }
 }
