@@ -2,7 +2,7 @@ package hw_9;
 
 public class Task_13_KthLargest {
 
-    public int KthLargest(int[] arr, int k){
+    public int kthLargest(int[] arr, int k){
 
         if(arr != null && arr.length > 0 && k < arr.length){
             for (int i = 0; i < arr.length; i++) {
