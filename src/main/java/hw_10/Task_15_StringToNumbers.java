@@ -1,6 +1,6 @@
 package hw_10;
 
-public class Task_10_StringToNumbers {
+public class Task_15_StringToNumbers {
 
     public int[] stringToNumbers(String str){
         if(str.length() > 0){
