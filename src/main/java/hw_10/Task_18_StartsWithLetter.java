@@ -11,7 +11,7 @@ public class Task_18_StartsWithLetter {
         for (int i = 0; i < strArr.length; i++) {
             if(String.valueOf(strArr[i].charAt(0)).equalsIgnoreCase(letter)) {
                 if (strArr[i].charAt(strArr[i].length() - 1) <= 'a' || strArr[i].charAt(strArr[i].length() - 1) >= 'z') {
-                    sb.append(strArr[i].substring(0, strArr[i].length() - 1)).append(",").append(" ");
+                    sb.append(strArr[i],0, strArr[i].length() - 1).append(",").append(" ");
                 } else {
                     sb.append(strArr[i]).append(",").append(" ");
                 }
